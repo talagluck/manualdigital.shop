@@ -1,0 +1,56 @@
+
+div{
+    font-size: 8vw;
+   color:  #323a3c;
+
+}
+
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("moamboea.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.title-text{
+    position: absolute;
+    left:1.5vw;
+    top:1.5vh;
+    color: #e7f4ff;;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding-bottom: 2%;
+    width: 70%;
+    height: 18%;
+    position: absolute;
+    background-color:rgba(231,244,255,0.5);
+    border-radius: 0.5vh;
+    z-index:-1;
+
+}
+
+.center-text{
+    /* position: absolute;
+    padding-bottom: 12vh; */
+   
+}
+.email-address{
+    font-size: 4vw;
+    color:  #323a3c;
+
+}
